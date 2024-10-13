@@ -8,10 +8,10 @@
  																	
 
 
+Linguagem C
 
 
-
-  Linguagem C
+  
   Este programa foi desenvolvido para controlar uma matriz:
 					- Leitura de uma matriz de um ficheiro.
 					- Alterara um valor na matriz.
