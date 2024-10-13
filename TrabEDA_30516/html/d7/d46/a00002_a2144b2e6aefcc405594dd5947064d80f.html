@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Trabalho Prático de Estruturas de Dados Avançados: eliminavalor</title>
+<link rel="icon" href="../../Captura de ecrã 2024-05-25 005639.png" type="image/x-icon" />
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Captura de ecrã 2024-05-25 005608.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Trabalho Prático de Estruturas de Dados Avançados<span id="projectnumber">&#160;001</span>
+   </div>
+   <div id="projectbrief">Fase I - Matrizes</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Localizar',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrada</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d7/d46/a00002.html">funcoes.c</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="contents">
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+   <td valign="top">
+      <div class="navtab">
+        <table>
+          <tr><td class="navtab"><a class="navtab" href="../../d7/d46/a00002_af08ec37a8c99d747fb60fa15bc28678b.html#af08ec37a8c99d747fb60fa15bc28678b">_CRT_SECURE_NO_WARNINGS</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="../../d7/d46/a00002_a2ba832a9bf18b13ad3b277f66b8f985a.html#a2ba832a9bf18b13ad3b277f66b8f985a">acrescentarColuna</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="../../d7/d46/a00002_af8214f45cf5124375e2834e2b31f2d29.html#af8214f45cf5124375e2834e2b31f2d29">acrescentarLinha</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="../../d7/d46/a00002_aa394a1b03cdccb0fbbf536814cf1406e.html#aa394a1b03cdccb0fbbf536814cf1406e">eliminaColuna</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="../../d7/d46/a00002_ad3ebc795bc9b406415f6f8f91eb358c1.html#ad3ebc795bc9b406415f6f8f91eb358c1">eliminarLinha</a></td></tr>
+          <tr><td class="navtabHL"><a class="navtab" href="../../d7/d46/a00002_a2144b2e6aefcc405594dd5947064d80f.html#a2144b2e6aefcc405594dd5947064d80f">eliminavalor</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="../../d7/d46/a00002_a390d1752262d58dd7788753254d2ef82.html#a390d1752262d58dd7788753254d2ef82">freeLista</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="../../d7/d46/a00002_ab841c067e71844d374aab062d20f85c6.html#ab841c067e71844d374aab062d20f85c6">guardarMatriz</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="../../d7/d46/a00002_a92781f04dd2cf5a07b1dc319611b9fe5.html#a92781f04dd2cf5a07b1dc319611b9fe5">imprMatriz</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="../../d7/d46/a00002_a2ed471e3728068dad89823bab912873a.html#a2ed471e3728068dad89823bab912873a">imprnumero</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="../../d7/d46/a00002_a04d58e3d6fe965a8cdf42edfbbd4a6d7.html#a04d58e3d6fe965a8cdf42edfbbd4a6d7">InsereFim</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="../../d7/d46/a00002_a2f2e86c94b0ef9385e5eea35bca74148.html#a2f2e86c94b0ef9385e5eea35bca74148">InsereInicio</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="../../d7/d46/a00002_a67c25fc7f321f0b649b3532154806fcb.html#a67c25fc7f321f0b649b3532154806fcb">insereValor</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="../../d7/d46/a00002_a92f044c18792e5f493a1f201027804d5.html#a92f044c18792e5f493a1f201027804d5">lerMatriz</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="../../d7/d46/a00002_ac8f51f37959c6364d47665fcd59fe43e.html#ac8f51f37959c6364d47665fcd59fe43e">mudarVal</a></td></tr>
+          <tr><td class="navtab"><a class="navtab" href="../../d7/d46/a00002_a8c40bd83cd9539632bc7aae938f6cca8.html#a8c40bd83cd9539632bc7aae938f6cca8">novoNo</a></td></tr>
+        </table>
+      </div>
+   </td>
+   <td valign="top" class="mempage">
+<a id="a2144b2e6aefcc405594dd5947064d80f" name="a2144b2e6aefcc405594dd5947064d80f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2144b2e6aefcc405594dd5947064d80f">&#9670;&#160;</a></span>eliminavalor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d51/a00017.html">Node</a> * eliminavalor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d51/a00017.html">Node</a> *</td>          <td class="paramname"><span class="paramname"><em>ini</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>valor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>posicao</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Função para eliminar um valor específico da lista.</p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ini</td><td></td></tr>
+    <tr><td class="paramname">valor</td><td></td></tr>
+    <tr><td class="paramname">posicao</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Retorna o apontador para o início da lista ligada. </dd></dl>
+<div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/d46/a00002_a2144b2e6aefcc405594dd5947064d80f_a2144b2e6aefcc405594dd5947064d80f_icgraph.png" border="0" usemap="#ad7/d46/a00002_a2144b2e6aefcc405594dd5947064d80f_a2144b2e6aefcc405594dd5947064d80f_icgraph" alt=""/></div>
+<map name="ad7/d46/a00002_a2144b2e6aefcc405594dd5947064d80f_a2144b2e6aefcc405594dd5947064d80f_icgraph" id="ad7/d46/a00002_a2144b2e6aefcc405594dd5947064d80f_a2144b2e6aefcc405594dd5947064d80f_icgraph">
+<area shape="rect" title=" " alt="" coords="253,31,341,57"/>
+<area shape="rect" href="../../d7/d46/a00002_aa394a1b03cdccb0fbbf536814cf1406e.html#aa394a1b03cdccb0fbbf536814cf1406e" title=" " alt="" coords="103,5,205,32"/>
+<area shape="poly" title=" " alt="" coords="237,36,205,30,206,25,238,31"/>
+<area shape="rect" href="../../d7/d46/a00002_ad3ebc795bc9b406415f6f8f91eb358c1.html#ad3ebc795bc9b406415f6f8f91eb358c1" title=" " alt="" coords="105,56,203,83"/>
+<area shape="poly" title=" " alt="" coords="238,57,204,63,203,58,237,52"/>
+<area shape="rect" href="../../d4/dee/a00008_ae66f6b31b5ad750f1fe042a706a4e3d4.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,55,57"/>
+<area shape="poly" title=" " alt="" coords="88,35,55,42,54,36,87,30"/>
+<area shape="poly" title=" " alt="" coords="89,59,55,52,56,46,90,54"/>
+</map>
+</div>
+
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['eliminacoluna_0',['eliminaColuna',['../d7/d46/a00002_aa394a1b03cdccb0fbbf536814cf1406e.html#aa394a1b03cdccb0fbbf536814cf1406e',1,'eliminaColuna(Node *ini, int *valores, int *lins, int *cols, int col, bool *res):&#160;funcoes.c'],['../dd/dad/a00005_aa394a1b03cdccb0fbbf536814cf1406e.html#aa394a1b03cdccb0fbbf536814cf1406e',1,'eliminaColuna(Node *ini, int *valores, int *lins, int *cols, int col, bool *res):&#160;funcoes.c']]],
+  ['eliminarlinha_1',['eliminarLinha',['../d7/d46/a00002_ad3ebc795bc9b406415f6f8f91eb358c1.html#ad3ebc795bc9b406415f6f8f91eb358c1',1,'eliminarLinha(Node *ini, int *valores, int *lins, int *cols, int lin, bool *res):&#160;funcoes.c'],['../dd/dad/a00005_ad3ebc795bc9b406415f6f8f91eb358c1.html#ad3ebc795bc9b406415f6f8f91eb358c1',1,'eliminarLinha(Node *ini, int *valores, int *lins, int *cols, int lin, bool *res):&#160;funcoes.c']]],
+  ['eliminavalor_2',['eliminavalor',['../d7/d46/a00002_a2144b2e6aefcc405594dd5947064d80f.html#a2144b2e6aefcc405594dd5947064d80f',1,'eliminavalor(Node *ini, int valor, int posicao):&#160;funcoes.c'],['../dd/dad/a00005_a2144b2e6aefcc405594dd5947064d80f.html#a2144b2e6aefcc405594dd5947064d80f',1,'eliminavalor(Node *ini, int valor, int posicao):&#160;funcoes.c']]],
+  ['em_20engenharia_20de_20sistemas_20informáticos_20regime_20pós_20laboral_202023_2024_3',['Licenciatura em Engenharia de Sistemas Informáticos (regime pós-laboral) 2023-24',['../index.html',1,'']]],
+  ['engenharia_20de_20sistemas_20informáticos_20regime_20pós_20laboral_202023_2024_4',['Licenciatura em Engenharia de Sistemas Informáticos (regime pós-laboral) 2023-24',['../index.html',1,'']]]
+];
