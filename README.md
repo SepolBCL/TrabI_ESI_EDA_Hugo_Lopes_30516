@@ -13,9 +13,13 @@ Linguagem C
 
   
   Este programa foi desenvolvido para controlar uma matriz:
+  
 					- Leitura de uma matriz de um ficheiro.
+     
 					- Alterara um valor na matriz.
+     
 					- Inserção e eliminação de linhas e colunas.
+     
 					- Salva e carrega a matriz  em um ficheiro.
 					
 	
